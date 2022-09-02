@@ -1,5 +1,4 @@
 
-//int cbsau=2;
 int cbtrai=13;
 int cbphai=12;
   
@@ -14,7 +13,7 @@ int maxspeed=30;
 
   int gtcbtrai;
   int gtcbphai;
-  //int gtcbsau;
+ 
   
 void dithang(int duongdi);
 void disangtrai();
@@ -52,7 +51,7 @@ void loop()
 {
   gtcbtrai=digitalRead(cbtrai);
   gtcbphai=digitalRead(cbphai);
-  //gtcbsau=digitalRead(cbsau);
+
 //====================================
   if(gtcbtrai==0 && gtcbphai==0)
   {
